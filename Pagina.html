@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mi primera pagina web</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cristina Pacheco</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="Pagina.html">Home</a></li>
+                <li> <a href="preferencias.html">Preferencias</a></li>
+                <li><a href="visuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="margin: 15px;">
+        Una historia sobre Cristina Pachecho
+    </h2>
+    <hr>
+
+    <article class="container">
+        <h3>La vida de Cristina Pacheco</h3>
+        <img class="image" src="/assets/img/cristina1.jpg" alt="cristina sonriendo">
+        <p> <b>Cristina Pacheco</b>, cuyo nombre de nacimiento es Cristina Romo Hernández, nació el 13 de septiembre de 1941 en
+            San Felipe, Guanajuato, México. Fue una destacada periodista, escritora y presentadora de televisión
+            mexicana.
+
+            Estudió Lengua y Literaturas Hispánicas en la Facultad de Filosofía y Letras de la Universidad Nacional
+            Autónoma de México (UNAM).
+            . Inició su carrera en los años sesenta como columnista de los diarios El Popular y Novedades, y como parte
+            del equipo de redacción de la Revista de la Universidad de México. Durante este tiempo, conoció al escritor
+            José Emilio Pacheco, con quien contrajo matrimonio en 1965 y tuvo dos hijas.</p>
+        <img class="image2" src="/assets/img/cristina2.jpg" alt="Cristina Y José Emilio">
+        <p>Cristina Pacheco trabajó en varias empresas periodísticas como El Sol de México, El Día y La Jornada. En
+            1977, comenzó a colaborar en Canal Once, donde se desempeñó como comentarista del programa Así fue la
+            semana, y como conductora de De todos modos Juan te llamas. Desde 1978 hasta 2023, condujo el programa Aquí
+            nos tocó vivir, y desde 1997 hasta 2023, condujo Conversando con Cristina Pacheco
+            Lamentablemente, Cristina Pacheco falleció el 21 de diciembre de 2023 en la Ciudad de México. Su
+            contribución a la literatura y al periodismo mexicano será recordada por siempre.</p>
+    </article>
+    
+
+
+
+    <footer class="footer">
+        <p>DERECHOS RESERVADOS &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>
